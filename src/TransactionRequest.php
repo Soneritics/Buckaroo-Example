@@ -7,7 +7,7 @@
 // Start the example (test) ideal payment
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-require_once 'autoloader.php';
+require_once '../vendor/autoload.php';
 require_once 'configs.php';
 
 $gateway = new \Buckaroo\Gateways\Test;
